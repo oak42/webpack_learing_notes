@@ -1,4 +1,4 @@
-深入浅出Webpack
+深入浅出Webpack [2017]
 
 
 contents
@@ -130,3 +130,113 @@ contents
 3.13.2 抛出问题
 3.13.3 使用Webpack构建Npm模块
 3.13.4 发布到Npm
+3.14 构建离线应用
+3.14.1 认识离线应用
+3.14.2 认识Service Workers
+3.14.3 接入Webpack
+3.14.4 验证结果
+3.15 搭配Npm Script
+3.15.1 认识Npm Script
+3.15.2 Webpack为什幺需要Npm Script
+3.16 检查代码
+3.16.1 代码检查具体是做什么
+3.16.2 怎么做代码检查
+3.16.3 结合Webpack检查代码
+3.17 通过Node.js API启动Webpack
+3.17.1 安装和使用Webpack模块
+3.17.2 以监听模式运行
+3.18 使用Webpack Dev Middleware
+3.18.1 Webpack Dev Middleware支持的配置项
+3.18.2 Webpack Dev Middleware与模块热替换
+3.19 加载图片
+3.19.1 使用file-loader
+3.19.2 使用url-loader
+3.20 加载SVG
+3.20.1 使用raw-loader
+3.20.2 使用svg-inline-loader
+3.21 加载Source Map
+3.21.1 该如何选择
+3.21.2 加载现有的Source Map
+3.22 实战总结
+
+4 优化
+4.1 缩小文件的搜索范围
+4.1.1 优化loader配置
+4.1.2 优化resolve.modules配置
+4.1.3 优化resolve.mainFields配置
+4.1.4 优化resolve.alias配置
+4.1.5 优化resolve.extension配置
+4.1.6 优化module.noParse配置
+4.2 使用DLLPlugin
+4.2.1 认识DLL
+4.2.2 接入Webpack
+4.3 使用HappyPack
+4.3.1 使用HappyPack
+4.3.2 HappyPack的原理
+4.4 使用ParallelUglifyPlugin
+4.5 使用自动刷新
+4.5.1 文件监听
+4.5.2 自动刷新浏览器
+4.6 开启模块热替换
+4.6.1 模块热替换的原理
+4.6.2 优化模块热替换
+4.7 区分环境
+4.7.1 为什么需要区分环境
+4.7.2 如何区分环境
+4.7.3 结合UglifyJS
+4.7.4 第三方库中的环境区分
+4.8 压缩代码
+4.8.1 压缩JavaScript
+4.8.2 压缩ES6
+4.8.3 压缩CSS
+4.9 CDN加速
+4.9.1 什么是CDN
+4.9.2 接入CDN
+4.9.3 用Webpack实现CDN的接入
+4.10 使用Tree Shaking
+4.10.1 认识Tree Shaking
+4.10.2 接入Tree Shaking
+4.11 提取公共代码
+4.11.1 为什么需要提取公共代码
+4.11.2 如何提取公共代码
+4.11.3 如何通过Webpack提取公共代码
+4.12 分割代码以按需加载
+4.12.1 为什么需要按需加载
+4.12.2 如何使用按需加载
+4.12.3 用Webpack实现按需加载
+4.12.4 按需加载与ReactRouter
+4.13 使用Prepack
+4.13.1 认识Prepack
+4.13.2 接入Webpack
+4.14 开启Scope Hoisting
+4.14.1 认识Scope Hoisting
+4.14.2 使用Scope Hoisting
+4.15 输出分析
+4.15.1 官方的可视化分析工具
+4.15.2 webpack-bundle-analyzer
+4.16 优化总结
+
+5 原理
+5.1 工作原理概括
+5.1.1 基本概念
+5.1.2 流程概括
+5.1.3 流程细节
+5.2 输出文件分析
+5.3 编写Loader
+5.3.1 Loader的职责
+5.3.2 Loader基础
+5.3.3 Loader进阶
+5.3.4 其他Loader API
+5.3.5 加载本地Loader
+5.3.6 实战
+5.4 编写Plugin
+5.4.1 Compiler和Compilation
+5.4.2 事件流
+5.4.3 常用的API
+5.4.4 实战
+5.5 调试Webpack
+5.6 原理总结
+
+A 常用的Loader
+B 常用的Plugin
+C Webpack的其他学习资源
